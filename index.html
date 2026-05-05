@@ -12,7 +12,10 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Mishra Trolley Pvt. Ltd.</div>
+            <a href="#hero" class="logo">
+                <img src="assets/Logo.jpg" alt="Mishra Trolley Logo" class="logo-img">
+                Mishra Trolley Pvt. Ltd.
+            </a>
             <div class="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
@@ -20,34 +23,41 @@
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Our Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero">
+    <section id="hero" class="hero reveal">
         <div class="container">
             <h1>Mishra Trolley Pvt. Ltd.</h1>
             <h2 class="tagline">Empowering Farmers with Reliable Tools</h2>
             <h3 class="tagline-hindi">किसानों की मदद के लिए भरोसेमंद उपकरण</h3>
+            <p class="typewriter-text"></p>
             <a href="#contact" class="btn">Contact Us</a>
         </div>
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="about">
+    <section id="about" class="about reveal">
         <div class="container">
             <h2 class="section-title">हमारे बारे में | About Us</h2>
             <div class="about-content">
-                <p>हम <strong>Mishra Trolley Pvt. Ltd.</strong> हैं, जो किसानों के लिए उन्नत सामग्री बनाते हैं। Since 1995, we've been supporting agriculture through innovation.</p>
-                <p>Our mission is to provide high-quality farming equipment that enhances productivity and makes agricultural work easier for farmers across India.</p>
+                <div class="about-text">
+                    <p>हम <strong>Mishra Trolley Pvt. Ltd.</strong> हैं, जो किसानों के लिए उन्नत सामग्री बनाते हैं। Since 1995, we've been supporting agriculture through innovation.</p>
+                    <p>Our mission is to provide high-quality farming equipment that enhances productivity and makes agricultural work easier for farmers across India.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/product1.jpg" alt="Mishra Trolley product">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Our Services Section -->
-    <section id="services" class="services">
+    <section id="services" class="services reveal">
         <div class="container">
             <h2 class="section-title">हमारी सेवाएँ | Our Services</h2>
             <div class="service-cards">
@@ -79,8 +89,33 @@
         </div>
     </section>
 
+    <!-- Product Gallery Section -->
+    <section id="gallery" class="gallery reveal">
+        <div class="container">
+            <h2 class="section-title">Our Products | हमारे उत्पाद</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="assets/product2.jpg" alt="Product image 2">
+                    <h3>Heavy Farm Trolleys</h3>
+                </div>
+                <div class="gallery-card">
+                    <img src="assets/product3.jpg" alt="Product image 3">
+                    <h3>Tractor Attachments</h3>
+                </div>
+                <div class="gallery-card">
+                    <img src="assets/product4.jpg" alt="Product image 4">
+                    <h3>Custom Fabrication</h3>
+                </div>
+                <div class="gallery-card">
+                    <img src="assets/product5.jpg" alt="Product image 5">
+                    <h3>Fabricated Farm Equipment</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Us Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact reveal">
         <div class="container">
             <h2 class="section-title">संपर्क करें | Contact Us</h2>
             <div class="contact-container">
@@ -118,7 +153,7 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="footer">
+    <footer class="footer reveal">
         <div class="container">
             <div class="footer-content">
                 <div class="map-container">
