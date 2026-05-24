@@ -461,3 +461,22 @@ section {
         font-size: 1.8rem;
     }
 }
+.whatsapp-float {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(37,211,102,0.5);
+    text-decoration: none;
+}
+.whatsapp-float:hover { background: #128C7E; }
+
